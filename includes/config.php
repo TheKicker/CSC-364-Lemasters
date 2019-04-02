@@ -9,7 +9,11 @@
  // $database = "csc364";
 
 if (! defined('DB_HOST'))       {define('DB_HOST', '127.0.0.1');}
+<<<<<<< HEAD
 if (! defined('DB_DATABASE'))   {define('DB_DATABASE', 'CSC364'); }
+=======
+if (! defined('DB_DATABASE'))   {define('DB_DATABASE', 'csc364'); }
+>>>>>>> 04f93aa145f19964f2db9c164ef95e4a88cf393f
 if (! defined('DB_USERNAME'))   {define('DB_USERNAME', 'Master'); }
 if (! defined('DB_PASSWORD'))   {define('DB_PASSWORD', 'password'); }
 /**

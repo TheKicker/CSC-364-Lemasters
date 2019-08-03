@@ -2,20 +2,16 @@
 /**
  * Define the database connection constants
  **/
- // DBMS Login Info
- // $host = "localhost";
- // $dbUser = "Master";
- // $dbPass = "password";
- // $database = "csc364";
-
+// DBMS Login Info
+// $host = "localhost";
+// $dbUser = "Master";
+// $dbPass = "password";
+// $database = "csc364";
 if (! defined('DB_HOST'))       {define('DB_HOST', '127.0.0.1');}
-<<<<<<< HEAD
 if (! defined('DB_DATABASE'))   {define('DB_DATABASE', 'CSC364'); }
-=======
-if (! defined('DB_DATABASE'))   {define('DB_DATABASE', 'csc364'); }
->>>>>>> 04f93aa145f19964f2db9c164ef95e4a88cf393f
 if (! defined('DB_USERNAME'))   {define('DB_USERNAME', 'Master'); }
 if (! defined('DB_PASSWORD'))   {define('DB_PASSWORD', 'password'); }
+
 /**
 * These constants point to various places in the filesystem where you will store certain
 * types of files. For you windows / graphical people these are the folders that you see in

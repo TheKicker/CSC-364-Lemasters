@@ -48,6 +48,7 @@ class Database
             trigger_error('Could not connect to server');
             $this->connectError = $this->db->connect_error;
         }
+
     }
     /**
      * Checks for MySQL errors

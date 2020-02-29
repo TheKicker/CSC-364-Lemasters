@@ -13,8 +13,6 @@ $password = $_POST['password'];
 
 if ($username && $password)
 {
-  try {
     login($username, $password);
-    $_SESSION['']
-  }
+    $_SESSION[''];
 }

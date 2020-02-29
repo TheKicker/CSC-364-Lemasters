@@ -33,26 +33,16 @@ foreach ($posts->fetchAll() as $key => $post) {
 	// Populate our variables by breaking down information in Database
 	$id = $post['id'];
 	$name = $post['name'];
-<<<<<<< HEAD
     $desc = $post['description'];
     $price = $post['price'];
     $row = "";
     $rowEnd = "";
-=======
-  $desc = $post['description'];
-  $price = $post['price'];
-  $row = "";
-  $rowEnd = "";
->>>>>>> 04f93aa145f19964f2db9c164ef95e4a88cf393f
+
 	// breaks rows down into columns of 3 as possible
 	if ($count % 3 == 0 && $count != 0)
   {
     $row = "<div class='row margin-b-2'>";
     $rowEnd = "</div>";
-<<<<<<< HEAD
-
-=======
->>>>>>> 04f93aa145f19964f2db9c164ef95e4a88cf393f
   }
 		// Complete Format
 		echo $rowEnd;

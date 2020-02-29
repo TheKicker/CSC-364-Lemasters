@@ -27,8 +27,8 @@ echo $jumbo->jumbotron1();
 
 <?php
 // Display three random products from catalogue
-$randProducts = new productRand();
-$randProducts->products3($db);
+// $randProducts = new productRand();
+// $randProducts->products3($db);
 ?>
 
           <div style="padding: 24px;">

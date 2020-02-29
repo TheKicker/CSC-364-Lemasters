@@ -8,9 +8,9 @@
 // $dbPass = "password";
 // $database = "csc364";
 if (! defined('DB_HOST'))       {define('DB_HOST', '127.0.0.1');}
-if (! defined('DB_DATABASE'))   {define('DB_DATABASE', 'CSC364'); }
-if (! defined('DB_USERNAME'))   {define('DB_USERNAME', 'Master'); }
-if (! defined('DB_PASSWORD'))   {define('DB_PASSWORD', 'password'); }
+if (! defined('DB_DATABASE'))   {define('DB_DATABASE', 'MySQL'); }
+if (! defined('DB_USERNAME'))   {define('DB_USERNAME', 'root'); }
+if (! defined('DB_PASSWORD'))   {define('DB_PASSWORD', ''); }
 
 /**
 * These constants point to various places in the filesystem where you will store certain

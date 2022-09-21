@@ -7,6 +7,13 @@
 // $dbUser = "Master";
 // $dbPass = "password";
 // $database = "csc364";
+
+// 2022 Revival Attempt (https://bit.io/TheKicker/VinoVeritas)
+// $host = "db.bit.io";
+// $dbUser = "TheKicker";
+// $dbPass = "v2_3uG8f_Vs9VFkXFRSmxFJbdC3kwBHD";
+// $database = "TheKicker/VinoVeritas";
+
 if (! defined('DB_HOST'))       {define('DB_HOST', '127.0.0.1');}
 if (! defined('DB_DATABASE'))   {define('DB_DATABASE', 'MySQL'); }
 if (! defined('DB_USERNAME'))   {define('DB_USERNAME', 'root'); }

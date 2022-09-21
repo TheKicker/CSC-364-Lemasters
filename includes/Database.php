@@ -45,7 +45,7 @@ class Database
     {
         $this->db = new mysqli($this->host, $this->dbUser, $this->dbPass, $this->dbName);
         if ($this->db->connect_errno) {
-            trigger_error('Could not connect to server');
+            trigger_error('Could not connect to server.');
             $this->connectError = $this->db->connect_error;
         }
 
